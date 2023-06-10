@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(142, 142, 142);
+}
+
+.heading {
+    text-align: center;
+    color: white;
+}
+
+.startbtn {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .activity{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+} */
+
+.paragraph{
+    font: 30px Arial, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 28%;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
